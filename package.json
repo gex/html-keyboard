@@ -5,6 +5,20 @@
   "author": "Gergo Szonyi",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop"
+  },
+  "dependencies": {
+    "gatsby": "^2.23.12",
+    "gatsby-source-filesystem": "^2.3.14",
+    "gatsby-transformer-json": "^2.4.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1",
+    "styled-normalize": "^8.0.7"
+  },
   "devDependencies": {
     "prettier": "^2.0.5"
   }
