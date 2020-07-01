@@ -6,8 +6,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "gatsby build",
     "clean": "gatsby clean",
+    "deploy": "gatsby build && vercel",
     "develop": "gatsby develop"
   },
   "dependencies": {
@@ -21,6 +21,7 @@
     "styled-normalize": "^8.0.7"
   },
   "devDependencies": {
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "vercel": "^19.1.1"
   }
 }
