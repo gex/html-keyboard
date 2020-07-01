@@ -7,7 +7,7 @@ import {
   DISH_SIZE,
   DISH_RADIUS,
   UNIT
-} from './config'
+} from '../../config'
 
 const StyledDiv = styled.div`
   --horizontalOffset: ${(props) =>

@@ -1,12 +1,7 @@
 import styled from 'styled-components'
-import { DEFAULT_ITEM_SIZE, UNIT, BASE_SIZE } from './config'
-import calculateWidth from '../../utils/calculateWidth'
-import calculateHeight from '../../utils/calculateHeight'
+import { DEFAULT_ITEM_SIZE, UNIT, BASE_SIZE } from '../../config'
 
-const Keyboard = styled.div.attrs((props) => ({
-  width: calculateWidth(props.keycaps),
-  height: calculateHeight(props.keycaps)
-}))`
+const Keyboard = styled.div`
   background: rgba(128, 128, 128, 0.1);
   border: 1rem solid rgba(128, 128, 128, 0.25);
   display: grid;
